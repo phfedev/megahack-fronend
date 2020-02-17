@@ -1,0 +1,2 @@
+# MegaHack
+ MegaHack project
