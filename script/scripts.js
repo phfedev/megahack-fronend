@@ -11,3 +11,4 @@ $(document).ready(function () {
     today = dd + '/' + mm + '/' + yyyy;
     document.getElementById("dataHoje").innerText = " "+today;
 });
+
