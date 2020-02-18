@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    this.loading = false
     $('#sidebarCollapse').on('click', function () {
         $('#sidebar').toggleClass('active');
     });
@@ -11,4 +11,3 @@ $(document).ready(function () {
     today = dd + '/' + mm + '/' + yyyy;
     document.getElementById("dataHoje").innerText = " "+today;
 });
-

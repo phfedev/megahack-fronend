@@ -1,6 +1,3 @@
-/*
-    DEMO STYLE
-*/
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
@@ -64,7 +61,7 @@ span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #5b3228;
+    background: #5060A9 ;
     color: #fff;
     transition: all 0.3s;
 }
@@ -120,7 +117,7 @@ span {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #4e1f14;
+    background: #232954 ;
 }
 
 #sidebar .sidebar-header strong {
@@ -140,7 +137,7 @@ span {
 }
 
 #sidebar ul li a:hover {
-    color: #4e1f14;
+    color: #232954 ;
     background: #fff;
 }
 
@@ -151,7 +148,7 @@ span {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #4e1f14;
+    background: #232954 ;
 }
 
 a[data-toggle="collapse"] {
@@ -169,7 +166,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #4e1f14;
+    background: #232954 ;
 }
 
 ul.CTAs {
@@ -186,12 +183,12 @@ ul.CTAs a {
 
 a.download {
     background: #fff;
-    color: #4e1f14;
+    color: #232954 ;
 }
 
 a.article,
 a.article:hover {
-    background: #4e1f14 !important;
+    background: #232954  !important;
     color: #fff !important;
 }
 
@@ -211,6 +208,10 @@ a.article:hover {
 ----------------------------------------------------- */
 
 @media (max-width: 768px) {
+    .imgLogo {
+        margin-top: 11px;
+        height: 6vh;
+    }
     #sidebar {
         min-width: 80px;
         max-width: 80px;
@@ -276,22 +277,22 @@ a.article:hover {
 
 .btn-info {
     color: #fff;
-    background-color: #4e1f14;
-    border-color: #4e1f14;
+    background-color: #232954 ;
+    border-color: #232954 ;
 }
 
 .btn-info:hover {
     color: #fff;
-    background-color: #5b3228;
-    border-color: #5b3228;
+    background-color: #5060A9 ;
+    border-color: #5060A9 ;
 }
 
 .btn-info.focus,
 .btn-info:focus {
     color: #fff;
-    background-color: #4e1f14;
-    border-color: #4e1f14;
-    box-shadow: 0 0 0 0.2rem #4e1f1475;
+    background-color: #232954 ;
+    border-color: #232954 ;
+    box-shadow: 0 0 0 0.2rem #23295475;
 }
 
 .btn-ad {
@@ -300,22 +301,38 @@ a.article:hover {
 
 p.title {
     font-size: 30px;
-    color: #4e1f14;
+    color: #232954 ;
     font-weight: bold;
 }
 
 p.desc {
-    color: #4e1f14;
+    color: #232954 ;
 }
 
 .btn-voo {
     float: right;
-    background-color: #5b3228;
+    background-color: #83BECC ;
     color: white;
     border-radius: 33px;
     align-items: center;
     padding: 12px 28px 12px 28px;
 }
+.btn-voo:hover {
+    color: white;
+    background-color: #54808a;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #83BECC;
+    border-color: #83BECC;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #54808a;
+    border-color: #54808a;
+}
+
 
 .card-edit {
     border: none;
@@ -331,7 +348,7 @@ p.desc {
 .inputvoo{
     border: none;
     background-color: transparent;
-    border-bottom: 2px solid #5b3228;
+    border-bottom: 2px solid #5060A9 ;
     border-radius: 0px;
     padding: 0px 0px 0px 0px;
     font-size: 12px;
@@ -339,7 +356,7 @@ p.desc {
 }
 .svg-inline--fa.fa-w-20 {
     width: 0.87em;
-    color: #4e1f14;
+    color: #232954 ;
 }
 .btn-ad-h {
     margin-top: 90px;
@@ -348,7 +365,7 @@ p.desc {
 }
 .cardResposta .card {
     border: none;
-    background-color: #5b3228db;
+    background-color: #5060A9db;
     color: white;
 }
 .cardResposta .card .card-body .card-text {
@@ -356,4 +373,16 @@ p.desc {
 }
 #vooResposta{
     display: none;
+}
+
+
+#cover {
+  background: url("http://www.aveva.com/Images/ajax-loader.gif") no-repeat scroll center center rgba(255, 255, 255, 0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.imgLogo {
+    height: 6vh;
 }
