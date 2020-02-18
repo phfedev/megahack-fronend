@@ -346,3 +346,14 @@ p.desc {
     height: 120px;
     width: 75vh;
 }
+.cardResposta .card {
+    border: none;
+    background-color: #5b3228db;
+    color: white;
+}
+.cardResposta .card .card-body .card-text {
+    color: white;
+}
+#vooResposta{
+    display: none;
+}
